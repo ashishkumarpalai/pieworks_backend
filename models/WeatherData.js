@@ -16,9 +16,9 @@ class WeatherData {
         //     database: 'weather_data',
         // });
         this.db = mysql.createConnection({
-            host: 'up-pl-waw1-mysql-1.db.run-on-erla.com',
-            user: 'db-00j8pqpyalmr',
-            password: 'i9WS2o2K7SAjQyLvwMWX8t3d',
+            host: '127.0.0.1',
+            user: 'root',
+            password: 'ashish',
             database: 'weather_data',
         });
         // this.db.connect((err) => {
